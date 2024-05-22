@@ -19,7 +19,7 @@ expected_features = ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneS
 
 
 def main():
-    st.markdown("<h1 style='text-align: center; color: blue;'>Customer Churn Prediction</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color:#9fd3c7 ;'>Customer Churn Prediction in Telecom Sector</h1>", unsafe_allow_html=True)
 
     # Define the input fields
     SeniorCitizen = st.selectbox("Senior Citizen", ["Yes", "No"])
